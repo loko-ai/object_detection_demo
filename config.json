@@ -1,0 +1,10 @@
+{
+  "main": {
+    "volumes": [
+       "C:\\Users\\aledi\\loko\\loko_volumes:/plugin/resources"
+       ],
+    "gui": {
+      "name": "Faces detection"
+    }
+  }
+}

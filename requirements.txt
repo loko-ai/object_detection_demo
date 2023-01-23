@@ -1,0 +1,9 @@
+opencv-python
+Flask
+loko-extensions
+requests
+flask-cors
+loko-client
+sanic
+sanic-cors
+sanic-openapi
