@@ -3,15 +3,15 @@
   "id": "object_detection_demo",
   "description": "",
   "created_on": "22/12/2022, 04:58:43",
-  "last_modify": "23/01/2023, 16:35:58",
+  "last_modify": "03/02/2023, 14:43:26",
   "graphs": {
     "main": {
       "nodes": [
         {
           "id": "9e2ec48c-d741-4e05-a3eb-47a79e47b2b0",
           "position": {
-            "x": 624.7026032900059,
-            "y": 71.44609506499108
+            "x": 559.7026032900059,
+            "y": 115.44609506499108
           },
           "type": "custom",
           "dragHandle": "#nodeHandle",
@@ -104,100 +104,16 @@
           "selectable": true,
           "draggable": true,
           "positionAbsolute": {
-            "x": 624.7026032900059,
-            "y": 71.44609506499108
-          },
-          "__class__": "Node"
-        },
-        {
-          "id": "5ef5e9c4-552d-4909-ae0f-119a6cf65df8",
-          "position": {
-            "x": 955,
-            "y": 78
-          },
-          "type": "custom",
-          "dragHandle": "#nodeHandle",
-          "sourcePosition": "right",
-          "targetPosition": "left",
-          "width": 189,
-          "height": 56,
-          "selected": false,
-          "dragging": false,
-          "data": {
-            "name": "Object Detector",
-            "events": null,
-            "description": "",
-            "inputs": [
-              {
-                "id": "input",
-                "label": "input",
-                "service": "",
-                "to": "output"
-              }
-            ],
-            "outputs": [
-              {
-                "id": "output",
-                "label": "output"
-              }
-            ],
-            "configured": true,
-            "options": {
-              "group": "Custom",
-              "args": [
-                {
-                  "name": "comment",
-                  "type": "area",
-                  "label": "Node comment",
-                  "helper": "Use it to explain the usage of this node"
-                },
-                {
-                  "name": "alias",
-                  "type": "text",
-                  "label": "Name",
-                  "helper": "Use this name as an alias"
-                },
-                {
-                  "name": "debug",
-                  "type": "boolean",
-                  "label": "Debug to Console",
-                  "divider": true
-                },
-                {
-                  "name": "keep",
-                  "type": "text",
-                  "label": "keep",
-                  "helper": "",
-                  "group": "",
-                  "value": "all",
-                  "description": "Objects to be detected. Existing labels are: 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'. Comma separated",
-                  "validation": null
-                }
-              ],
-              "click": null,
-              "icon": "RiCheckboxBlankCircleFill",
-              "values": {
-                "comment": "",
-                "alias": "",
-                "debug": true,
-                "keep": "all"
-              }
-            },
-            "locked": null
-          },
-          "selectable": true,
-          "draggable": true,
-          "positionAbsolute": {
-            "x": 955,
-            "y": 78
+            "x": 559.7026032900059,
+            "y": 115.44609506499108
           },
           "__class__": "Node"
         },
         {
           "id": "3abbc366-06ac-473f-a5e8-550ac10487fe",
           "position": {
-            "x": 433,
-            "y": 208
+            "x": 437,
+            "y": 354
           },
           "type": "custom",
           "dragHandle": "#nodeHandle",
@@ -260,16 +176,16 @@
           "selectable": true,
           "draggable": true,
           "positionAbsolute": {
-            "x": 433,
-            "y": 208
+            "x": 437,
+            "y": 354
           },
           "__class__": "Node"
         },
         {
           "id": "d43885bc-10e7-4994-afec-f68e27d1c08a",
           "position": {
-            "x": 1416,
-            "y": 165
+            "x": 1348,
+            "y": 365
           },
           "type": "custom",
           "dragHandle": "#nodeHandle",
@@ -339,100 +255,16 @@
           "selectable": true,
           "draggable": true,
           "positionAbsolute": {
-            "x": 1416,
-            "y": 165
-          },
-          "__class__": "Node"
-        },
-        {
-          "id": "09d0b1f7-2b44-4a3a-8120-18e409880c41",
-          "position": {
-            "x": 952,
-            "y": 271
-          },
-          "type": "custom",
-          "dragHandle": "#nodeHandle",
-          "sourcePosition": "right",
-          "targetPosition": "left",
-          "width": 189,
-          "height": 56,
-          "selected": false,
-          "dragging": false,
-          "data": {
-            "name": "Object Detector",
-            "events": null,
-            "description": "",
-            "inputs": [
-              {
-                "id": "input",
-                "label": "input",
-                "service": "",
-                "to": "output"
-              }
-            ],
-            "outputs": [
-              {
-                "id": "output",
-                "label": "output"
-              }
-            ],
-            "configured": true,
-            "options": {
-              "group": "Custom",
-              "args": [
-                {
-                  "name": "comment",
-                  "type": "area",
-                  "label": "Node comment",
-                  "helper": "Use it to explain the usage of this node"
-                },
-                {
-                  "name": "alias",
-                  "type": "text",
-                  "label": "Name",
-                  "helper": "Use this name as an alias"
-                },
-                {
-                  "name": "debug",
-                  "type": "boolean",
-                  "label": "Debug to Console",
-                  "divider": true
-                },
-                {
-                  "name": "keep",
-                  "type": "text",
-                  "label": "keep",
-                  "helper": "",
-                  "group": "",
-                  "value": "all",
-                  "description": "Objects to be detected. Existing labels are: 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'. Comma separated",
-                  "validation": null
-                }
-              ],
-              "click": null,
-              "icon": "RiCheckboxBlankCircleFill",
-              "values": {
-                "comment": "",
-                "alias": "",
-                "debug": true,
-                "keep": "person"
-              }
-            },
-            "locked": null
-          },
-          "selectable": true,
-          "draggable": true,
-          "positionAbsolute": {
-            "x": 952,
-            "y": 271
+            "x": 1348,
+            "y": 365
           },
           "__class__": "Node"
         },
         {
           "id": "07cb8d25-223d-4c35-9e82-30ed5b29e792",
           "position": {
-            "x": 684,
-            "y": 284
+            "x": 657,
+            "y": 410
           },
           "type": "custom",
           "dragHandle": "#nodeHandle",
@@ -508,8 +340,8 @@
               "icon": "RiCodeSSlashFill",
               "values": {
                 "comment": "",
-                "alias": "",
-                "debug": true,
+                "alias": "Get img",
+                "debug": false,
                 "propagate": true,
                 "notify_warnings": true,
                 "code": "return data.files.get('file')"
@@ -520,16 +352,16 @@
           "selectable": true,
           "draggable": true,
           "positionAbsolute": {
-            "x": 684,
-            "y": 284
+            "x": 657,
+            "y": 410
           },
           "__class__": "Node"
         },
         {
           "id": "87aedfad-22fd-47b7-9bce-f3cd7c123e32",
           "position": {
-            "x": 1220,
-            "y": 214
+            "x": 1143,
+            "y": 412
           },
           "type": "custom",
           "dragHandle": "#nodeHandle",
@@ -596,24 +428,202 @@
           },
           "selectable": true,
           "draggable": true,
+          "positionAbsolute": {
+            "x": 1143,
+            "y": 412
+          },
+          "__class__": "Node"
+        },
+        {
+          "id": "c4e94bd2-c55c-4b65-95ec-d83cde6d420d",
+          "position": {
+            "x": 397,
+            "y": 314
+          },
+          "type": "comment",
+          "dragHandle": "#commentHandle",
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 1146,
+          "height": 234,
+          "selected": false,
+          "dragging": false,
+          "data": {
+            "comment": "Detect service",
+            "fill": "#577590",
+            "height": 234,
+            "width": 1146
+          },
+          "zIndex": -1,
+          "selectable": false,
+          "connectable": false,
+          "__class__": "Node"
+        },
+        {
+          "id": "7c50785c-33de-4b5f-bcc1-2f2ae8185521",
+          "position": {
+            "x": 786,
+            "y": 111
+          },
+          "type": "custom",
+          "dragHandle": "#nodeHandle",
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 150,
+          "height": 56,
+          "selected": false,
+          "dragging": false,
+          "data": {
+            "name": "Object Detector",
+            "events": null,
+            "description": "### Description\nThe Object Detection component relies on Yolo-v7 to detect objects from images.\n\n### Configuration\n\n**keep** parameter sets which objects you want to detect. The available categories are:\n```\n'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'.\n``` \nIf you leave this argument to \"all\", which is its default value, all the available categories will be detected.\n\n### Input\n\nThe component accepts a single image in input.\n\n### Output\n\nObject Detection returns as output all the detected objects:\n\n```\n{\"label\":\"person\",\"score\":0.8791136741638184,\"bbox\":[4.884635925292969,377.1213073730469,47.26206970214844,424.5968933105469]}\n```\n\n",
+            "inputs": [
+              {
+                "id": "image",
+                "label": "image",
+                "service": "",
+                "to": "output"
+              }
+            ],
+            "outputs": [
+              {
+                "id": "output",
+                "label": "output"
+              }
+            ],
+            "configured": true,
+            "options": {
+              "group": "Custom",
+              "args": [
+                {
+                  "name": "comment",
+                  "type": "area",
+                  "label": "Node comment",
+                  "helper": "Use it to explain the usage of this node"
+                },
+                {
+                  "name": "alias",
+                  "type": "text",
+                  "label": "Name",
+                  "helper": "Use this name as an alias"
+                },
+                {
+                  "name": "debug",
+                  "type": "boolean",
+                  "label": "Debug to Console",
+                  "divider": true
+                },
+                {
+                  "name": "keep",
+                  "type": "text",
+                  "label": "keep",
+                  "helper": "",
+                  "group": "",
+                  "value": "all",
+                  "description": "Objects to be detected. Existing labels are: 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'. Comma separated",
+                  "validation": null
+                }
+              ],
+              "click": null,
+              "icon": "RiDoorOpenLine",
+              "values": {
+                "keep": "all",
+                "debug": true
+              }
+            },
+            "locked": null
+          },
+          "selectable": true,
+          "draggable": true,
+          "positionAbsolute": {
+            "x": 786,
+            "y": 111
+          },
+          "__class__": "Node"
+        },
+        {
+          "id": "6754129c-e220-468f-8130-df48410f6299",
+          "position": {
+            "x": 869,
+            "y": 372
+          },
+          "type": "custom",
+          "dragHandle": "#nodeHandle",
+          "sourcePosition": "right",
+          "targetPosition": "left",
+          "width": 189,
+          "height": 56,
+          "selected": false,
+          "dragging": false,
+          "data": {
+            "name": "Object Detector",
+            "events": null,
+            "description": "### Description\nThe Object Detection component relies on Yolo-v7 to detect objects from images.\n\n### Configuration\n\n**keep** parameter sets which objects you want to detect. The available categories are:\n```\n'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'.\n``` \nIf you leave this argument to \"all\", which is its default value, all the available categories will be detected.\n\n### Input\n\nThe component accepts a single image in input.\n\n### Output\n\nObject Detection returns as output all the detected objects:\n\n```\n{\"label\":\"person\",\"score\":0.8791136741638184,\"bbox\":[4.884635925292969,377.1213073730469,47.26206970214844,424.5968933105469]}\n```\n\n",
+            "inputs": [
+              {
+                "id": "image",
+                "label": "image",
+                "service": "",
+                "to": "output"
+              }
+            ],
+            "outputs": [
+              {
+                "id": "output",
+                "label": "output"
+              }
+            ],
+            "configured": true,
+            "options": {
+              "group": "Custom",
+              "args": [
+                {
+                  "name": "comment",
+                  "type": "area",
+                  "label": "Node comment",
+                  "helper": "Use it to explain the usage of this node"
+                },
+                {
+                  "name": "alias",
+                  "type": "text",
+                  "label": "Name",
+                  "helper": "Use this name as an alias"
+                },
+                {
+                  "name": "debug",
+                  "type": "boolean",
+                  "label": "Debug to Console",
+                  "divider": true
+                },
+                {
+                  "name": "keep",
+                  "type": "text",
+                  "label": "keep",
+                  "helper": "",
+                  "group": "",
+                  "value": "all",
+                  "description": "Objects to be detected. Existing labels are: 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'. Comma separated",
+                  "validation": null
+                }
+              ],
+              "click": null,
+              "icon": "RiDoorOpenLine",
+              "values": {
+                "keep": "all",
+                "debug": true
+              }
+            }
+          },
+          "selectable": true,
+          "draggable": true,
+          "positionAbsolute": {
+            "x": 869,
+            "y": 372
+          },
           "__class__": "Node"
         }
       ],
       "edges": [
-        {
-          "id": "reactflow__edge-9e2ec48c-d741-4e05-a3eb-47a79e47b2b0output-5ef5e9c4-552d-4909-ae0f-119a6cf65df8input",
-          "source": "9e2ec48c-d741-4e05-a3eb-47a79e47b2b0",
-          "sourceHandle": "output",
-          "target": "5ef5e9c4-552d-4909-ae0f-119a6cf65df8",
-          "targetHandle": "input",
-          "data": {
-            "startColor": "#F8637A",
-            "stopColor": "#888"
-          },
-          "selected": false,
-          "dragging": false,
-          "__class__": "Edge"
-        },
         {
           "id": "reactflow__edge-3abbc366-06ac-473f-a5e8-550ac10487feoutput-07cb8d25-223d-4c35-9e82-30ed5b29e792input",
           "source": "3abbc366-06ac-473f-a5e8-550ac10487fe",
@@ -629,11 +639,39 @@
           "__class__": "Edge"
         },
         {
-          "id": "reactflow__edge-07cb8d25-223d-4c35-9e82-30ed5b29e792output-09d0b1f7-2b44-4a3a-8120-18e409880c41input",
+          "id": "reactflow__edge-87aedfad-22fd-47b7-9bce-f3cd7c123e32output-d43885bc-10e7-4994-afec-f68e27d1c08ainput",
+          "source": "87aedfad-22fd-47b7-9bce-f3cd7c123e32",
+          "sourceHandle": "output",
+          "target": "d43885bc-10e7-4994-afec-f68e27d1c08a",
+          "targetHandle": "input",
+          "data": {
+            "startColor": "#D770AD",
+            "stopColor": "#56A6DC"
+          },
+          "selected": false,
+          "dragging": false,
+          "__class__": "Edge"
+        },
+        {
+          "id": "reactflow__edge-9e2ec48c-d741-4e05-a3eb-47a79e47b2b0output-7c50785c-33de-4b5f-bcc1-2f2ae8185521image",
+          "source": "9e2ec48c-d741-4e05-a3eb-47a79e47b2b0",
+          "sourceHandle": "output",
+          "target": "7c50785c-33de-4b5f-bcc1-2f2ae8185521",
+          "targetHandle": "image",
+          "data": {
+            "startColor": "#F8637A",
+            "stopColor": "#888"
+          },
+          "selected": false,
+          "dragging": false,
+          "__class__": "Edge"
+        },
+        {
+          "id": "reactflow__edge-07cb8d25-223d-4c35-9e82-30ed5b29e792output-6754129c-e220-468f-8130-df48410f6299image",
           "source": "07cb8d25-223d-4c35-9e82-30ed5b29e792",
           "sourceHandle": "output",
-          "target": "09d0b1f7-2b44-4a3a-8120-18e409880c41",
-          "targetHandle": "input",
+          "target": "6754129c-e220-468f-8130-df48410f6299",
+          "targetHandle": "image",
           "data": {
             "startColor": "#D770AD",
             "stopColor": "#888"
@@ -643,28 +681,14 @@
           "__class__": "Edge"
         },
         {
-          "id": "reactflow__edge-09d0b1f7-2b44-4a3a-8120-18e409880c41output-87aedfad-22fd-47b7-9bce-f3cd7c123e32input",
-          "source": "09d0b1f7-2b44-4a3a-8120-18e409880c41",
+          "id": "reactflow__edge-6754129c-e220-468f-8130-df48410f6299output-87aedfad-22fd-47b7-9bce-f3cd7c123e32input",
+          "source": "6754129c-e220-468f-8130-df48410f6299",
           "sourceHandle": "output",
           "target": "87aedfad-22fd-47b7-9bce-f3cd7c123e32",
           "targetHandle": "input",
           "data": {
             "startColor": "#888",
             "stopColor": "#D770AD"
-          },
-          "selected": false,
-          "dragging": false,
-          "__class__": "Edge"
-        },
-        {
-          "id": "reactflow__edge-87aedfad-22fd-47b7-9bce-f3cd7c123e32output-d43885bc-10e7-4994-afec-f68e27d1c08ainput",
-          "source": "87aedfad-22fd-47b7-9bce-f3cd7c123e32",
-          "sourceHandle": "output",
-          "target": "d43885bc-10e7-4994-afec-f68e27d1c08a",
-          "targetHandle": "input",
-          "data": {
-            "startColor": "#D770AD",
-            "stopColor": "#56A6DC"
           },
           "selected": false,
           "dragging": false,

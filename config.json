@@ -1,10 +1,10 @@
 {
   "main": {
     "volumes": [
-       "C:\\Users\\aledi\\loko\\loko_volumes:/plugin/resources"
+       "/var/opt/loko/yolo/:/plugin/resources"
        ],
     "gui": {
-      "name": "Faces detection"
+      "name": "Object Detection"
     }
   }
 }
