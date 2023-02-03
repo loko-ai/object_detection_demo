@@ -8,8 +8,8 @@ RUN yarn build --base="/routes/object_detection_demo/web/"
 
 FROM lokoai/python_yolov7:0.0.1
 EXPOSE 8080
-ADD ./requirements.txt /
-RUN pip install -r /requirements.txt
+ADD ./requirements.lock /
+RUN pip install -r /requirements.lock
 ARG GATEWAY
 ENV GATEWAY=$GATEWAY
 ADD . /plugin
