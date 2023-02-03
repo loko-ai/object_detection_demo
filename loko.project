@@ -3,7 +3,7 @@
   "id": "object_detection_demo",
   "description": "",
   "created_on": "22/12/2022, 04:58:43",
-  "last_modify": "03/02/2023, 14:43:26",
+  "last_modify": "03/02/2023, 15:13:29",
   "graphs": {
     "main": {
       "nodes": [
@@ -91,9 +91,9 @@
                 "debug": false,
                 "read_content": false,
                 "value": {
-                  "name": "spiagge-a-cefalu.jpg",
-                  "path": "data/data/yolo/spiagge-a-cefalu.jpg",
-                  "parent": "data/data/yolo",
+                  "name": "img2.jpg",
+                  "path": "data/projects/object_detection_demo/data/img2.jpg",
+                  "parent": "data/projects/object_detection_demo/data",
                   "isDir": false,
                   "hidden": false
                 }
@@ -527,8 +527,10 @@
               "click": null,
               "icon": "RiDoorOpenLine",
               "values": {
-                "keep": "all",
-                "debug": true
+                "comment": "",
+                "alias": "",
+                "debug": true,
+                "keep": "umbrella"
               }
             },
             "locked": null
